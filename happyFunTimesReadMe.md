@@ -34,9 +34,9 @@ the line above is equivilent to an <h2> Other Examples </h2> you can use up to 6
 
 You can do code blocks in md, and even have it hightlighted in the right colors for the appropriate kind of code. For example, here's some HTML.
 
-``` here os am example of C# code
+```here os am example of C# code
 
-``` csharp
+```csharp
 	public class Greeter
 	
 	private string Greeting = "Hello World";
