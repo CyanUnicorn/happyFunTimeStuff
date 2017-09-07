@@ -20,7 +20,7 @@ the line above is equivilent to an <h2> Other Examples </h2> you can use up to 6
 1. Learn about the different stylings for MD. Specifically, how to do ... 
 	1. Headings
 	1. lists both UO and O
-	1. code snippets like <h1> This </h1>
+	1. code snippets like '<h1> This </h1>'
 	1. code blocks (multiple lines of code)
 	1. **Bold** *Italic*
 	1. tables
@@ -29,3 +29,27 @@ the line above is equivilent to an <h2> Other Examples </h2> you can use up to 6
 	1. Other interesting things
 1. Answer the question, What is thedifference between **GitHub flavored MD**(GFM) and regular Markdown?
 1. find out how to do a checkbox in a list item using GFM
+
+## Code Blocks 
+
+You can do code blocks in md, and even have it hightlighted in the right colors for the appropriate kind of code. For example, here's some HTML.
+
+``` here os am example of C# code
+
+``` csharp
+	public class Greeter
+	
+	private string Greeting = "Hello World";
+	private string Goodbye;
+	
+	public Greeter (string greeting, string goodbye)
+	{
+		Greeting = greeting;
+		Goodbye = goodbye;
+		
+	}
+	
+	public string SayHello()
+	{
+		return Greeting;
+	}
