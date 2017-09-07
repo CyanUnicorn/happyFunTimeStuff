@@ -1,5 +1,7 @@
 # This is a mark down file type
 
+>notes by Justin Haimila
+
 The line above is equivilent to an <h1> This is a mark down file type</h1> HTML Mark up
 The Idea of Markdown files is to make it easier to write text that you want too have some sort of richness to it, but don't want 
 to get hung up on details of markup (HTML) or having to resort to more binary representation such as in MS word
